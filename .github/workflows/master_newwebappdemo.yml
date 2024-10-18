@@ -36,7 +36,7 @@ jobs:
         run: |
           cd frontend  # Navigate to the frontend directory
           zip -r ../release.zip .  # Zip frontend contents
-          cd ../backend  # Navigate to the backend directory
+          cd ../newapp-backend  # Navigate to the backend directory
           zip -r ../release.zip .  # Add backend contents to the same zip
 
       - name: Upload artifact for deployment job
