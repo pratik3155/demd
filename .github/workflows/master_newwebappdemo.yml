@@ -27,7 +27,7 @@ jobs:
 
       - name: Install, build, and test backend
         run: |
-          cd backend  # Navigate to the backend directory
+          cd newapp-backend  # Navigate to the backend directory
           npm install
           npm run build --if-present
           npm run test --if-present
