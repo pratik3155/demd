@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.todo-input input {
+  padding: 10px;
+  width: 300px;
+}
+
+.todo-input button {
+  padding: 10px;
+  margin-left: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+li span {
+  cursor: pointer;
+}
